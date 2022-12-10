@@ -7,16 +7,11 @@ public class Main {
 	public static void main(String[] args) {
 
 		int basic, allow=0;
-
-
 		Scanner sc =new Scanner(System.in);
-
-
 		basic=sc.nextInt();
 	    char grade=sc.next().charAt(0);
-
 	    double hra=(0.2*basic), da=(0.5*basic), pf=(0.11*basic), totalSalary;
-
+		
 	     if(grade=='A'){
 		    allow=1700;
 	    }
